@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>OnlineClassDemo</id>
+    <version>1.0.2-rc</version>
+    <title>Online Class Demo</title>
+    <authors>Clyde D'Souza</authors>
+    <owners>learnwithclyde</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <iconUrl>https://via.placeholder.com/64</iconUrl>
+    <description>Online Class Demo long description for this package.</description>
+    <summary>Online Class Demo shorter version of the description.</summary>
+    <releaseNotes>First version of demo nuget package.</releaseNotes>
+    <copyright>Copyright (c) 2019 Clyde D'Souza</copyright>
+    <tags>nuget experimentation demo</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Newtonsoft.Json" version="11.0.2" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
